@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
-import QuoteDisplay from "../components/QuoteDisplay";
-import QuoteGrid from "../components/QuoteGrid";
+import QuoteDisplay from "../../compnents/QuoteDisplay";
+import QuoteGrid from "../../compnents/Grid";
 
 const RANDOM_QUOTE_API =
   "https://dummyjson.com/quotes/random";
